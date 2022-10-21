@@ -51,6 +51,7 @@ endif()
 include(MujocoOptions)
 include(MujocoMacOS)
 include(MujocoDependencies)
+link_libraries(stdc++fs)
 
 set(MUJOCO_HEADERS
     include/mujoco/mjdata.h
